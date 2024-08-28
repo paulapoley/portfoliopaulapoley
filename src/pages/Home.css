@@ -1,9 +1,9 @@
 /* Estilo general para la página Home */
 .home-container {
   padding: 20px;
-  background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%); /* Fondo similar al de .about-container */
-  color: #ffffff; /* Color de texto similar al de .about-container */
-  font-family: 'Roboto', sans-serif; /* Uso de la misma fuente que en .about-container */
+  background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Estilo para el encabezado */
@@ -14,6 +14,45 @@
 
 .home-header h1 {
   font-size: 2.5rem;
-  color: #00d8ff; /* Color destacado similar al de .about-container */
+  color: #00d8ff;
 }
 
+/* Estilo para la imagen del proyecto */
+.project-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+/* Estilo para el botón */
+.home-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #00bfae;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #009d89;
+}
+
+/* Estilo para el contenedor del PDF */
+.pdf-container {
+  margin-top: 20px;
+}
+
+/* Estilo para el visor del PDF */
+.pdf-viewer {
+  width: 100%;
+  height: 600px; /* Ajusta la altura según sea necesario */
+  border: none;
+}
