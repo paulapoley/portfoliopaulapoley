@@ -16,7 +16,7 @@ const Home = () => {
 
       <div className="home-content">
         {/* Imagen del proyecto */}
-        <img src="/pdfs/p1.png" alt="Proyecto 1" className="project-image" />
+        <img src="/pdfs/p1.jpg" alt="Proyecto 1" className="project-image" />
 
         <p>Este es un resumen de mi proyecto. Puedes ver más detalles en el PDF a continuación.</p>
 
