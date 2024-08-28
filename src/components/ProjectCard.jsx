@@ -1,5 +1,5 @@
-
-import styles from "../styles/ProjectCard.module.css";
+import React from 'react';
+import styles from '../styles/ProjectCard.module.css';
 
 export default function ProjectCard({ project }) {
   return (
