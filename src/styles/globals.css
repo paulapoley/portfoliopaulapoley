@@ -1,61 +1,7 @@
-/* Reset de márgenes y paddings por defecto */
-* {
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
-/* Configuración básica del cuerpo */
-body {
-  font-family: Arial, sans-serif; /* Fuente base para todo el sitio */
-  line-height: 1.6; /* Espaciado de línea para mejorar la legibilidad */
-  color: #333; /* Color del texto */
-  background-color: #f4f4f4; /* Color de fondo general */
-}
-
-/* Estilos para encabezados */
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 0.5rem; /* Margen inferior para los encabezados */
-  color: #222; /* Color del texto para los encabezados */
-}
-
-/* Estilos para enlaces */
-a {
-  color: #0070f3; /* Color de los enlaces */
-  text-decoration: none; /* Quitar el subrayado de los enlaces */
-}
-
-a:hover {
-  text-decoration: underline; /* Subrayar los enlaces al pasar el cursor sobre ellos */
-}
-
-/* Estilos para el contenedor principal */
-.container {
-  max-width: 1200px; /* Ancho máximo del contenedor */
-  margin: 0 auto; /* Centrar el contenedor horizontalmente */
-  padding: 0 1rem; /* Espaciado horizontal dentro del contenedor */
-}
-
-/* Estilos básicos de botones */
-button {
-  background-color: #0070f3; /* Color de fondo del botón */
-  color: white; /* Color del texto del botón */
-  border: none; /* Sin borde */
-  padding: 0.5rem 1rem; /* Espaciado interno del botón */
-  border-radius: 4px; /* Bordes redondeados */
-  cursor: pointer; /* Cursor de mano */
-}
-
-button:hover {
-  background-color: #005bb5; /* Color de fondo al pasar el cursor sobre el botón */
-}
-
-/* Estilos para el contenedor de proyectos */
-.project_gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: center; /* Centrar los proyectos */
-  padding: 1rem;
-}
 
