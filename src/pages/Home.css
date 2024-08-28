@@ -19,7 +19,7 @@
 
 /* Estilo para la imagen del proyecto */
 .project-image {
-  max-width: 100%;
+  max-width: 150px; /* Ajusta este valor para cambiar el tamaño */
   height: auto;
   display: block;
   margin: 0 auto 20px;
