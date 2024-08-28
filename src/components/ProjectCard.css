@@ -1,0 +1,28 @@
+/* Estilos básicos para el componente ProjectCard */
+
+.project-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.project-card h3 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.project-card p {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.project-card a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
