@@ -1,6 +1,4 @@
-
-
-  .about-container {
+.about-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -69,4 +67,26 @@
   text-decoration: none;
   font-size: 1.2rem;
   border-radius: 30px;
-  color: 
+  color: white;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.about-link:hover {
+  transform: scale(1.1);
+}
+
+.linkedin {
+  background-color: #0a66c2;
+}
+
+.linkedin:hover {
+  background-color: #084a90;
+}
+
+.github {
+  background-color: #171515;
+}
+
+.github:hover {
+  background-color: #0d0d0d;
+}
