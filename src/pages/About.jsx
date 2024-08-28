@@ -24,6 +24,9 @@ const About = () => {
           <a href="https://github.com/paulapoley" className="about-link github" target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
+          <a href="/path/to/your/cv.pdf" className="about-link cv" target="_blank" rel="noopener noreferrer">
+            CV 
+          </a>
         </div>
       </div>
     </div>
