@@ -1,23 +1,24 @@
 {
-  "name": "mis-proyectos-universidad",
+  "name": "mi-portfolio",
   "version": "1.0.0",
-  "description": "Una página web para mostrar mis proyectos realizados en la universidad.",
-  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "author": "Tu Nombre",
-  "license": "MIT",
-  "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-scripts": "^5.0.0"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
-  "devDependencies": {},
-  "homepage": ".",
   "browserslist": {
     "production": [
       ">0.2%",
