@@ -1,10 +1,25 @@
-nav {
-  background: #333;
-  color: #fff;
-  padding: 1rem;
+.card-container {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-nav h1 {
-  margin: 0;
+.card-container h3 {
+  margin-top: 0;
 }
 
+.card-container p {
+  color: #555;
+}
+
+.card-container a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.card-container a:hover {
+  text-decoration: underline;
+}
