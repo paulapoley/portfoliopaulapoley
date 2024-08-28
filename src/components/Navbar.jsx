@@ -1,13 +1,16 @@
 import React from 'react';
 import './Navbar.css';
 
-const Navbar = () => (
-  <nav className="navbar">
-    <div className="navbar-links">
-      <a href="/">Proyectos</a>
-      <a href="/about">Sobre mi</a>
-    </div>
-  </nav>
-);
+const Navbar = () => {
+  return (
+    <nav className="navbar">
+      <ul className="navbar-menu">
+        <li><Link to="/">Inicio</Link></li>
+        <li><Link to="/proyectos">Proyectos</Link></li>
+        <li><Link to="/certificaciones">Certificaciones</Link></li> {/* Nueva pestaña */}
+      </ul>
+    </nav>
+  );
+};
 
 export default Navbar;
