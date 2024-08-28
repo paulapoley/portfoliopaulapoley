@@ -14,9 +14,6 @@ const About = () => {
         </p>
       </div>
       <div className="about-links-container">
-        <p className="about-links-intro">
-          Check out my profiles:
-        </p>
         <div className="about-links">
           <a href="https://www.linkedin.com/in/paulapoley/" className="about-link linkedin" target="_blank" rel="noopener noreferrer">
             LinkedIn
