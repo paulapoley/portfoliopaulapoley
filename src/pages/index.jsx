@@ -1,17 +1,11 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from '../App';
+import '../styles/globals.css'; // Asegúrate de que los estilos globales están bien importados
 
-import ProjectCard from "../components/ProjectCard";
-import projects from "../../projects.json";
-import styles from "../styles/globals.css";
-
-export default function Home() {
-  return (
-    <div>
-      <h1>Mis Proyectos de la Universidad</h1>
-      <div className={styles.project_gallery}>
-        {projects.map((project, index) => (
-          <ProjectCard key={index} project={project} />
-        ))}
-      </div>
-    </div>
-  );
-}
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
