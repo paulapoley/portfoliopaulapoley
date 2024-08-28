@@ -7,7 +7,6 @@ const Navbar = () => (
       <a href="/">Home</a>
       <a href="/about">Sobre mi</a>
     </div>
-    <button className="connect-button">Connect</button> {/* Example button */}
   </nav>
 );
 
