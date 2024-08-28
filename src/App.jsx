@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './Navbar';
 import Home from './Home';
-import Proyectos from './Proyectos'; // Supongamos que ya tienes este componente
-import Certificaciones from './Certificaciones'; // Necesitarás crear este componente
+import Proyectos from './Proyectos'; 
+import Certificaciones from './Certificaciones'; 
 
 const App = () => {
   return (
