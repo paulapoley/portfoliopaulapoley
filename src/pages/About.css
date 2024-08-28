@@ -1,92 +1,62 @@
 .about-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
-  padding: 20px;
-  color: #ffffff;
-  font-family: 'Roboto', sans-serif;
+  padding: 20px; /* Ajusta el espaciado general de la sección */
+  max-width: 800px; /* Ajusta el ancho máximo del contenedor */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
 }
 
 .about-content {
-  text-align: center;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  padding: 40px;
-  border-radius: 15px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-  max-width: 600px;
-  width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 20px; /* Espacio debajo del contenido principal */
 }
 
 .about-title {
-  font-size: 2.5rem;
-  color: #FFFFFF;
-  margin-bottom: 20px;
-  font-family: 'Orbitron', sans-serif;
+  font-size: 2em; /* Tamaño del título */
+  margin-bottom: 10px; /* Espacio debajo del título */
 }
 
-.about-text {
-  font-size: 1.2rem;
-  color: #f1f1f1;
-  margin-bottom: 30px;
+.about-intro {
+  margin-bottom: 15px; /* Espacio debajo del párrafo introductorio */
+  font-size: 1.2em; /* Tamaño del texto del párrafo introductorio */
+  color: #333; /* Color del texto */
+}
+
+.about-details {
+  font-size: 1em; /* Tamaño del texto del párrafo de detalles */
+  color: #666; /* Color del texto */
 }
 
 .highlight {
-  color: #00d8ff;
-  font-weight: bold;
+  font-weight: bold; /* Destacar el texto */
+  color: #007bff; /* Color del texto destacado, ajusta según tu esquema de colores */
 }
 
 .about-links-container {
-  text-align: center;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  padding: 30px;
-  border-radius: 15px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-  max-width: 600px;
-  width: 100%;
+  margin-top: 20px; /* Espacio arriba de los enlaces */
 }
 
 .about-links-intro {
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-  color: #ffffff;
+  font-size: 1.1em; /* Tamaño del texto de introducción de enlaces */
+  margin-bottom: 10px; /* Espacio debajo del texto de introducción */
 }
 
 .about-links {
-  display: flex;
-  justify-content: space-around;
+  display: flex; /* Muestra los enlaces en una fila */
+  gap: 15px; /* Espacio entre los enlaces */
 }
 
 .about-link {
-  padding: 10px 20px;
-  text-decoration: none;
-  font-size: 1.2rem;
-  border-radius: 30px;
-  color: white;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-decoration: none; /* Quita el subrayado de los enlaces */
+  color: #007bff; /* Color del texto de los enlaces */
+  font-size: 1em; /* Tamaño del texto de los enlaces */
 }
 
 .about-link:hover {
-  transform: scale(1.1);
+  text-decoration: underline; /* Subraya el texto al pasar el ratón sobre el enlace */
 }
 
 .linkedin {
-  background-color: #0a66c2;
-}
-
-.linkedin:hover {
-  background-color: #084a90;
+  /* Estilos específicos para el enlace de LinkedIn (si es necesario) */
 }
 
 .github {
-  background-color: #171515;
-}
-
-.github:hover {
-  background-color: #0d0d0d;
+  /* Estilos específicos para el enlace de GitHub (si es necesario) */
 }
