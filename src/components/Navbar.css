@@ -27,17 +27,4 @@
   text-decoration: underline; 
 }
 
-/* Style for the connect button */
-.connect-button {
-  background-color: #007bff; 
-  border: none; 
-  color: #fff;
-  padding: 0.5rem 1rem; 
-  border-radius: 5px;
-  cursor: pointer; 
-}
 
-/* Add hover effect for the connect button */
-.connect-button:hover {
-  background-color: #0056b3; 
-}
