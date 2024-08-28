@@ -12,7 +12,7 @@ const About = () => {
       </div>
       <div className="about-links-container">
         <p className="about-links-intro">
-          Puedes ver más de mi trabajo o conectar conmigo a través de los siguientes enlaces:
+          Conéctate conmigo:
         </p>
         <div className="about-links">
           <a href="https://www.linkedin.com/in/paulapoley/" className="about-link linkedin" target="_blank" rel="noopener noreferrer">
