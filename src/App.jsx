@@ -1,23 +1,21 @@
-
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Home from './pages/Home';
-import About from './pages/About';
-import './styles/globals.css'; // Asegúrate de que esta ruta sea correcta
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Navbar from './Navbar';
+import Home from './Home';
+import Proyectos from './Proyectos'; // Supongamos que ya tienes este componente
+import Certificaciones from './Certificaciones'; // Necesitarás crear este componente
 
-function App() {
+const App = () => {
   return (
     <Router>
-      <div className="App">
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-        </Routes>
-      </div>
+      <Navbar />
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/proyectos" component={Proyectos} />
+        <Route path="/certificaciones" component={Certificaciones} />
+      </Switch>
     </Router>
   );
-}
+};
 
 export default App;
