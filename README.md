@@ -1,7 +1,10 @@
 ### Estructura:
 📦 mi-portfolio-universidad
+
  ┣ 📂public
+ 
  ┃ ┣ 📂pdfs
+ 
  ┃ ┃ ┣ 📜proyecto1.pdf
  ┃ ┃ ┣ 📜proyecto2.pdf
  ┃ ┃ ┗ 📜proyecto3.pdf
