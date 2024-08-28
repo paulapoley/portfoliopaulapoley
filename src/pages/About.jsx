@@ -7,12 +7,12 @@ const About = () => {
       <div className="about-content">
         <h1 className="about-title">Sobre mí</h1>
         <p className="about-text">
-          Soy <span className="highlight">Paula Poley Ceballos</span>, estudiante de último curso de <span className="highlight">Ingeniería de la Salud</span> con especialización en <span className="highlight">Informática Clínica</span> por la <span className="highlight">Universidad de Sevilla</span>.
+          <span className="highlight"> Soy Paula Poley Ceballos, estudiante de último curso de <span className="highlight">Ingeniería de la Salud</span> con especialización en <span className="highlight">Informática Clínica</span> por la <span className="highlight">Universidad de Sevilla</span>.
         </p>
       </div>
       <div className="about-links-container">
         <p className="about-links-intro">
-          Conéctate conmigo:
+          Check out my profiles:
         </p>
         <div className="about-links">
           <a href="https://www.linkedin.com/in/paulapoley/" className="about-link linkedin" target="_blank" rel="noopener noreferrer">
