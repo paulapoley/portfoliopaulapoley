@@ -9,6 +9,11 @@ const About = () => {
         <p className="about-text">
           Soy <span className="highlight">Paula Poley Ceballos</span>, estudiante de último curso de <span className="highlight">Ingeniería de la Salud</span> con especialización en <span className="highlight">Informática Clínica</span> por la <span className="highlight">Universidad de Sevilla</span>.
         </p>
+      </div>
+      <div className="about-links-container">
+        <p className="about-links-intro">
+          Puedes ver más de mi trabajo o conectar conmigo a través de los siguientes enlaces:
+        </p>
         <div className="about-links">
           <a href="https://www.linkedin.com/in/paulapoley/" className="about-link linkedin" target="_blank" rel="noopener noreferrer">
             LinkedIn
