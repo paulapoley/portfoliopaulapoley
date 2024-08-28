@@ -91,3 +91,11 @@
   background-color: #0d0d0d;
 }
 
+.cv {
+  background-color: #00bfae; 
+}
+
+.cv:hover {
+  background-color: #009d89; 
+}
+
