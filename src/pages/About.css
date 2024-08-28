@@ -1,62 +1,81 @@
+/* General styles for the about-container */
 .about-container {
-  padding: 20px; /* Ajusta el espaciado general de la sección */
-  max-width: 800px; /* Ajusta el ancho máximo del contenedor */
-  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #1e1e1e; /* Dark background for a tech look */
+  color: #f0f0f0; /* Light text color for contrast */
+  border-radius: 10px; /* Rounded corners for a modern look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
 }
 
-.about-content {
-  margin-bottom: 20px; /* Espacio debajo del contenido principal */
-}
-
+/* Title style */
 .about-title {
-  font-size: 2em; /* Tamaño del título */
-  margin-bottom: 10px; /* Espacio debajo del título */
+  font-size: 2.5em; /* Larger title for emphasis */
+  margin-bottom: 20px;
+  font-family: 'Orbitron', sans-serif; /* Futuristic font */
+  color: #00bcd4; /* Teal color for a tech vibe */
+  text-shadow: 0 0 10px rgba(0, 188, 212, 0.7); /* Glow effect */
 }
 
+/* Intro paragraph style */
 .about-intro {
-  margin-bottom: 15px; /* Espacio debajo del párrafo introductorio */
-  font-size: 1.2em; /* Tamaño del texto del párrafo introductorio */
-  color: #333; /* Color del texto */
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif; /* Modern, clean font */
 }
 
+/* Details paragraph style */
 .about-details {
-  font-size: 1em; /* Tamaño del texto del párrafo de detalles */
-  color: #666; /* Color del texto */
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  color: #b0bec5; /* Slightly lighter text color for details */
 }
 
+/* Highlight style for important text */
 .highlight {
-  font-weight: bold; /* Destacar el texto */
-  color: #007bff; /* Color del texto destacado, ajusta según tu esquema de colores */
+  font-weight: bold;
+  color: #ff4081; /* Bright pink for highlighting */
+  text-shadow: 0 0 5px rgba(255, 64, 129, 0.5); /* Subtle glow effect */
 }
 
+/* Links container style */
 .about-links-container {
-  margin-top: 20px; /* Espacio arriba de los enlaces */
+  margin-top: 20px;
 }
 
+/* Links intro style */
 .about-links-intro {
-  font-size: 1.1em; /* Tamaño del texto de introducción de enlaces */
-  margin-bottom: 10px; /* Espacio debajo del texto de introducción */
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+  color: #e0e0e0; /* Light color for the intro text */
 }
 
+/* Style for links */
 .about-links {
-  display: flex; /* Muestra los enlaces en una fila */
-  gap: 15px; /* Espacio entre los enlaces */
+  display: flex;
+  gap: 20px;
 }
 
 .about-link {
-  text-decoration: none; /* Quita el subrayado de los enlaces */
-  color: #007bff; /* Color del texto de los enlaces */
-  font-size: 1em; /* Tamaño del texto de los enlaces */
+  text-decoration: none;
+  font-size: 1.1em;
+  font-family: 'Roboto', sans-serif;
+  color: #00bcd4; /* Matching link color with title */
+  transition: color 0.3s, text-shadow 0.3s;
 }
 
+/* Hover effect for links */
 .about-link:hover {
-  text-decoration: underline; /* Subraya el texto al pasar el ratón sobre el enlace */
+  color: #ff4081; /* Change color on hover */
+  text-shadow: 0 0 10px rgba(255, 64, 129, 0.7); /* Glow effect on hover */
 }
 
+/* Specific styles for LinkedIn and GitHub links */
 .linkedin {
-  /* Estilos específicos para el enlace de LinkedIn (si es necesario) */
+  border-bottom: 2px solid #00bcd4; /* Underline effect for LinkedIn */
 }
 
 .github {
-  /* Estilos específicos para el enlace de GitHub (si es necesario) */
+  border-bottom: 2px solid #ff4081; /* Underline effect for GitHub */
 }
