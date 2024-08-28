@@ -1,81 +1,93 @@
-/* General styles for the about-container */
 .about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
   padding: 20px;
-  max-width: 800px;
-  margin: 0 auto;
-  background-color: #1e1e1e; /* Dark background for a tech look */
-  color: #f0f0f0; /* Light text color for contrast */
-  border-radius: 10px; /* Rounded corners for a modern look */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
 }
 
-/* Title style */
+.about-content {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  max-width: 600px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
 .about-title {
-  font-size: 2.5em; /* Larger title for emphasis */
+  font-size: 2.5rem;
+  color: #FFFFFF;
   margin-bottom: 20px;
-  font-family: 'Orbitron', sans-serif; /* Futuristic font */
-  color: #00bcd4; /* Teal color for a tech vibe */
-  text-shadow: 0 0 10px rgba(0, 188, 212, 0.7); /* Glow effect */
+  font-family: 'Orbitron', sans-serif;
 }
 
-/* Intro paragraph style */
-.about-intro {
-  margin-bottom: 20px;
-  font-size: 1.2em;
-  font-family: 'Roboto', sans-serif; /* Modern, clean font */
+.about-text {
+  font-size: 1.2rem;
+  color: #f1f1f1;
+  margin-bottom: 30px;
 }
 
-/* Details paragraph style */
-.about-details {
-  font-size: 1em;
-  font-family: 'Roboto', sans-serif;
-  color: #b0bec5; /* Slightly lighter text color for details */
-}
-
-/* Highlight style for important text */
 .highlight {
+  color: #00d8ff;
   font-weight: bold;
-  color: #ff4081; /* Bright pink for highlighting */
-  text-shadow: 0 0 5px rgba(255, 64, 129, 0.5); /* Subtle glow effect */
 }
 
-/* Links container style */
 .about-links-container {
-  margin-top: 20px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  max-width: 600px;
+  width: 100%;
 }
 
-/* Links intro style */
 .about-links-intro {
-  font-size: 1.2em;
-  font-family: 'Roboto', sans-serif;
-  color: #e0e0e0; /* Light color for the intro text */
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #ffffff;
 }
 
-/* Style for links */
 .about-links {
   display: flex;
-  gap: 20px;
+  justify-content: space-around;
 }
 
 .about-link {
+  padding: 10px 20px;
   text-decoration: none;
-  font-size: 1.1em;
-  font-family: 'Roboto', sans-serif;
-  color: #00bcd4; /* Matching link color with title */
-  transition: color 0.3s, text-shadow 0.3s;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-/* Hover effect for links */
 .about-link:hover {
-  color: #ff4081; /* Change color on hover */
-  text-shadow: 0 0 10px rgba(255, 64, 129, 0.7); /* Glow effect on hover */
+  transform: scale(1.1);
 }
 
-/* Specific styles for LinkedIn and GitHub links */
 .linkedin {
-  border-bottom: 2px solid #00bcd4; /* Underline effect for LinkedIn */
+  background-color: #0a66c2;
+}
+
+.linkedin:hover {
+  background-color: #084a90;
 }
 
 .github {
-  border-bottom: 2px solid #ff4081; /* Underline effect for GitHub */
+  background-color: #171515;
 }
+
+.github:hover {
+  background-color: #0d0d0d;
+}
+
