@@ -1,86 +1,69 @@
-/* Estilo general para la página Home */
+/* Home.css */
+
 .home-container {
   padding: 20px;
-  background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
-  color: #ffffff;
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial, sans-serif;
 }
 
-/* Estilo para el encabezado */
 .home-header {
   text-align: center;
   margin-bottom: 20px;
 }
 
-.home-header h1 {
-  font-size: 2.5rem;
-  color: #00d8ff;
-}
-
-/* Cuadrícula para los proyectos */
 .projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
 }
 
-/* Estilo para cada tarjeta de proyecto */
 .project-card {
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-  text-align: center;
-  position: relative;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 200px; /* Ajusta el ancho máximo de la tarjeta */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.2s;
 }
 
-/* Información del proyecto encima de la imagen */
+.project-card:hover {
+  transform: scale(1.03);
+}
+
 .project-info {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  right: 20px;
-  background: rgba(0, 0, 0, 0.5);
   padding: 10px;
-  border-radius: 10px;
 }
 
 .project-title {
-  font-size: 1.5rem;
+  font-size: 16px; /* Tamaño de fuente más pequeño */
   margin: 0;
-  color: #ffffff;
 }
 
 .project-description {
-  font-size: 1rem;
-  margin: 5px 0 0;
-  color: #dddddd;
+  font-size: 14px; /* Tamaño de fuente más pequeño */
+  color: #666;
+  margin-top: 5px;
 }
 
 .project-image {
-  width: 100%;
-  height: auto;
-  margin-top: 60px; /* Espacio para la información del proyecto */
-  border-radius: 10px;
+  width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
 }
 
-/* Estilo para el botón */
 .home-button {
-  display: inline-block;
-  padding: 10px 20px;
-  margin-top: 10px;
-  background-color: #00bfae;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
   color: white;
   border: none;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 1rem;
-  text-align: center;
+  border-radius: 0 0 8px 8px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  text-align: center;
+  font-size: 14px; /* Tamaño de fuente más pequeño */
 }
 
 .home-button:hover {
-  background-color: #009d89;
+  background-color: #0056b3;
 }
