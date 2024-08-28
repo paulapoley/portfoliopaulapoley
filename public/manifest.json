@@ -1,6 +1,6 @@
 {
   "short_name": "Portfolio",
-  "name": "Mi Portfolio",
+  "name": "Mi Portfolio de Proyectos",
   "icons": [
     {
       "src": "favicon.ico",
@@ -10,7 +10,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#ffffff",
   "background_color": "#ffffff"
 }
-
