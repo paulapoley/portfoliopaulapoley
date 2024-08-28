@@ -1,0 +1,19 @@
+{
+  "projects": [
+    {
+      "title": "Proyecto 1",
+      "description": "Descripción del Proyecto 1",
+      "pdf": "/pdfs/proyecto1.pdf"
+    },
+    {
+      "title": "Proyecto 2",
+      "description": "Descripción del Proyecto 2",
+      "pdf": "/pdfs/proyecto2.pdf"
+    },
+    {
+      "title": "Proyecto 3",
+      "description": "Descripción del Proyecto 3",
+      "pdf": "/pdfs/proyecto3.pdf"
+    }
+  ]
+}
