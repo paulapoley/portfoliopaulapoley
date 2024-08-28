@@ -7,7 +7,7 @@ const Navbar = () => {
       <ul className="navbar-menu">
         <li><Link to="/">Inicio</Link></li>
         <li><Link to="/proyectos">Proyectos</Link></li>
-        <li><Link to="/certificaciones">Certificaciones</Link></li> {/* Nueva pestaña */}
+        <li><Link to="/certificaciones">Certificaciones</Link></li> 
       </ul>
     </nav>
   );
