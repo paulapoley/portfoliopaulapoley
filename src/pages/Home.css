@@ -17,38 +17,3 @@
   color: #00d8ff; /* Color destacado similar al de .about-container */
 }
 
-/* Estilo para el contenido */
-.home-content {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-  background: rgba(255, 255, 255, 0.1); /* Fondo similar al de .about-content */
-  backdrop-filter: blur(10px); /* Similar a .about-content */
-  border-radius: 15px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Similar a .about-content */
-}
-
-.home-content p {
-  font-size: 1rem;
-  line-height: 1.6;
-  color: #f1f1f1; /* Color de texto similar al de .about-text */
-}
-
-/* Estilo para los botones */
-.home-button {
-  display: inline-block;
-  padding: 10px 20px;
-  margin-top: 10px;
-  background-color: #00bfae; /* Color similar al de .about-link.cv */
-  color: white;
-  border: none;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 1rem;
-  text-align: center; /* Alineación del texto */
-  transition: background-color 0.3s ease;
-}
-
-.home-button:hover {
-  background-color: #009d89; /* Color de hover similar al de .about-link.cv:hover */
-}
