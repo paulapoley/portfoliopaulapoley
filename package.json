@@ -1,10 +1,11 @@
 {
   "name": "mi-portfolio",
   "version": "1.0.0",
-  "private": true,
+  "main": "index.js",
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0", // Esta línea es importante
     "react-scripts": "5.0.0"
   },
   "scripts": {
