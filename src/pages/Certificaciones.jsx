@@ -3,12 +3,11 @@ import './Certificaciones.css';
 
 const Certificaciones = () => {
   const certifications = [
-    { id: 1, title: 'Certificación 1', description: 'Descripción breve de la certificación 1.', imgSrc: '/pdfs/IABigData.jpg' },
-    { id: 2, title: 'Certificación 2', description: 'Descripción breve de la certificación 2.', imgSrc: '/pdfs/DiagnosticoPorImagen.jpg' },
-    { id: 3, title: 'Certificación 3', description: 'Descripción breve de la certificación 3.', imgSrc: '/pdfs/NuevasTecnicas.jpg' },
-    { id: 4, title: 'Certificación 1', description: 'Descripción breve de la certificación 1.', imgSrc: '/pdfs/IABigData.jpg' },
-    { id: 5, title: 'Certificación 2', description: 'Descripción breve de la certificación 2.', imgSrc: '/pdfs/DiagnosticoPorImagen.jpg' },
-    { id: 6, title: 'Certificación 3', description: 'Descripción breve de la certificación 3.', imgSrc: '/pdfs/NuevasTecnicas.jpg' },
+    { id: 1, title: 'Curso 1', description: 'Descripción del curso 1', imgSrc: '/pdfs/p1.jpg' },
+    { id: 2, title: 'Inteligencia Artificial y Big Data al Servicio de los Procesos de Selección de Personal', description: 'Certificado con el número de identificación: EC29160/15680',  imgSrc: '/pdfs/IABigData.jpg'},
+    { id: 3, title: 'Introducción al Desarrollo de Aplicaciones Web', description: 'Certificado con el número de identificación: EC29160/16109' , imgSrc: '/pdfs/AppWeb.jpg' },
+    { id: 4, title: 'Curso: Diagnóstico por Imagen', description: 'Certificado con el número de identificación: 1102021041669' , imgSrc: '/pdfs/DiagnosticoPorImagen.jpg'},
+    { id: 5, title: 'Curso: Nuevas Técnicas de Imagen', description: 'Certificado con el número de identificación: 1102021043050' , imgSrc: '/pdfs/NuevasTecnicas.jpg'},
   ];
 
   return (
