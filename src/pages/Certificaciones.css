@@ -29,12 +29,14 @@
   border: 1px solid rgba(255, 255, 255, 0.2); /* Borde blanco semi-transparente */
   border-radius: 15px;
   overflow: hidden;
-  width: 300px; /* Ajustado para una mejor visualización de las imágenes */
+  width: 400px; /* Ajustado para una mejor visualización de las imágenes */
+  height: 300px;
   padding: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
   background: rgba(255, 255, 255, 0.2); /* Fondo semitransparente */
   backdrop-filter: blur(10px); /* Efecto de desenfoque del fondo */
   transition: transform 0.2s;
+  justify-content: space-between;
 }
 
 .cert-card:hover {
