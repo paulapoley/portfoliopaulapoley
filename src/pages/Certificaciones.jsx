@@ -6,6 +6,9 @@ const Certificaciones = () => {
     { id: 1, title: 'Certificación 1', description: 'Descripción breve de la certificación 1.', imgSrc: '/pdfs/IABigData.jpg' },
     { id: 2, title: 'Certificación 2', description: 'Descripción breve de la certificación 2.', imgSrc: '/pdfs/DiagnosticoPorImagen.jpg' },
     { id: 3, title: 'Certificación 3', description: 'Descripción breve de la certificación 3.', imgSrc: '/pdfs/NuevasTecnicas.jpg' },
+    { id: 4, title: 'Certificación 1', description: 'Descripción breve de la certificación 1.', imgSrc: '/pdfs/IABigData.jpg' },
+    { id: 5, title: 'Certificación 2', description: 'Descripción breve de la certificación 2.', imgSrc: '/pdfs/DiagnosticoPorImagen.jpg' },
+    { id: 6, title: 'Certificación 3', description: 'Descripción breve de la certificación 3.', imgSrc: '/pdfs/NuevasTecnicas.jpg' },
   ];
 
   return (
