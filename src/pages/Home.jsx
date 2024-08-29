@@ -13,7 +13,7 @@ const Home = () => {
     { 
       id: 2, 
       title: 'BYODSEC: Implementación de BYOD en una Entidad Hospitalaria con VPN Road Warrior TLS', 
-      description: 'Implementación de políticas BYOD y VPN para mejorar la seguridad en entidades hospitalarias.', 
+      description: 'Implementación de una arquitectura segura cliente-servidor en Java utilizando TLS para asegurar las comunicaciones. Se configuraron KeyStores, se desarrollaron sockets TLS y se validó el rendimiento para manejar hasta 300 conexiones concurrentes, garantizando autenticación y cifrado de datos.', 
       imgSrc: '/pdfs/p3.jpg', 
       pdfSrc: '/pdfs/proyecto3.pdf' 
     },
