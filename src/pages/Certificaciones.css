@@ -29,7 +29,7 @@
   border: 1px solid rgba(255, 255, 255, 0.2); /* Borde blanco semi-transparente */
   border-radius: 15px;
   overflow: hidden;
-  width: 250px; /* Ajustado para una mejor visualización de las imágenes */
+  width: 300px; /* Ajustado para una mejor visualización de las imágenes */
   padding: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
   background: rgba(255, 255, 255, 0.2); /* Fondo semitransparente */
