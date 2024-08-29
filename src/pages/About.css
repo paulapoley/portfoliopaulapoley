@@ -5,8 +5,10 @@
   align-items: center;
   box-sizing: border-box;
   background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
-  color: #4059a3;
+  color: #ffffff;
   font-family: 'Roboto', sans-serif;
+  min-height: 90vh; /* Asegura que ocupe la altura completa de la pantalla */
+  padding: 20px;
 }
 
 .about-content {
@@ -50,12 +52,6 @@
   width: 100%;
 }
 
-.about-links-intro {
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-  color: #ffffff;
-}
-
 .about-links {
   display: flex;
   justify-content: space-around;
@@ -91,10 +87,9 @@
 }
 
 .cv {
-  background-color: #00bfae; 
+  background-color: #00bfae;
 }
 
 .cv:hover {
-  background-color: #009d89; 
+  background-color: #009d89;
 }
-
