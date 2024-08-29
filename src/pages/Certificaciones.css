@@ -60,9 +60,7 @@
   font-size: 0.875rem;
   color: #f0f0f0;
   font-family: 'Roboto', sans-serif;
-  white-space: pre-wrap; /* Preserva los saltos de línea y los espacios en blanco */
 }
-
 
 .cert-image {
   width: 100%;
