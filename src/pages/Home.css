@@ -1,52 +1,107 @@
+/* Estilos generales del contenedor */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+  padding: 20px;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos del encabezado */
+.home-header {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  color: #ffffff;
+  font-family: 'Orbitron', sans-serif;
+}
+
+/* Configuración de la cuadrícula de proyectos */
 .projects-grid {
   display: flex;
-  flex-direction: column; /* Coloca las tarjetas en una columna */
-  gap: 20px; 
-  justify-content: center;
-  align-items: center; /* Centra horizontalmente */
+  flex-direction: column;
+  gap: 20px; /* Espacio entre las tarjetas */
+  justify-items: center;
+  align-items: center; /* Centra las tarjetas */
+  width: 100%; /* Asegura que la cuadrícula ocupe el ancho completo */
 }
 
+/* Estilos de las tarjetas individuales */
 .project-card {
   display: flex;
-  flex-direction: row; /* Coloca los elementos de la tarjeta en fila */
-  border: 1px solid rgba(255, 255, 255, 0.2); 
+  flex-direction: row; /* Alinea horizontalmente los elementos */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Borde blanco semi-transparente */
   border-radius: 15px;
   overflow: hidden;
-  width: 800px; /* Aumenta el ancho para acomodar los elementos */
-  padding: 20px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); 
-  background: rgba(255, 255, 255, 0.2); 
-  backdrop-filter: blur(10px); 
+  width: 100%;
+  max-width: 800px; /* Máximo ancho para las tarjetas */
+  height: auto; /* Ajusta la altura automáticamente */
+  padding: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 0.2); /* Fondo semitransparente */
+  backdrop-filter: blur(10px); /* Efecto de desenfoque del fondo */
   transition: transform 0.2s;
+  align-items: center; /* Centra los elementos verticalmente */
+  justify-content: space-between; /* Espacio entre los elementos */
 }
 
+/* Estilo del hover de las tarjetas */
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+/* Estilos para la información de los proyectos */
 .project-info {
-  flex: 2; /* Ocupa más espacio en la tarjeta */
-  padding: 0 20px; /* Ajusta el espaciado interno */
+  flex: 2;
+  padding: 0 20px;
+  color: #ffffff;
 }
 
+.project-title {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: #ffffff;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.project-description {
+  font-size: 1rem;
+  color: #f0f0f0;
+  font-family: 'Roboto', sans-serif;
+  white-space: pre-wrap; /* Preserva los saltos de línea y los espacios en blanco */
+  text-align: left; /* Alinea el texto a la izquierda */
+}
+
+/* Estilos para la imagen del proyecto */
 .project-image {
-  flex: 1; /* Imagen ocupa menos espacio */
-  max-width: 200px; /* Controla el tamaño máximo de la imagen */
-  margin-right: 20px; /* Espacio entre imagen y texto */
-  border-radius: 10px; /* Añadir bordes redondeados a la imagen */
+  flex: 1;
+  max-width: 200px;
+  height: 150px; /* Fija la altura para uniformar la visualización */
+  object-fit: cover; /* Asegura que la imagen ocupe todo el espacio sin deformarse */
+  border-radius: 10px;
+  margin-right: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+/* Estilos del botón de PDF */
 .home-button {
   display: block;
-  width: 150px; /* Tamaño del botón */
-  margin-left: auto; /* Alinea el botón al final */
-  padding: 10px;
-  background-color: #00bfae; 
-  color: white;
+  padding: 10px 20px;
+  background-color: #ff8c00;
+  color: #ffffff;
   border: none;
-  border-radius: 15px; 
+  border-radius: 25px;
   cursor: pointer;
-  text-align: center;
-  font-size: 1rem; 
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
   transition: background-color 0.3s ease;
+  align-self: flex-end;
 }
 
 .home-button:hover {
-  background-color: #009d89; 
+  background-color: #e67e22;
 }
