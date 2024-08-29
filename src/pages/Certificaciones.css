@@ -18,65 +18,17 @@
   font-family: 'Orbitron', sans-serif; 
 }
 
-.certificaciones-grid {
+.certifications-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 20px; 
   justify-content: center;
 }
 
-.certificaciones-card {
+.cert-card {
   border: 1px solid rgba(255, 255, 255, 0.2); /* Borde blanco semi-transparente */
   border-radius: 15px;
   overflow: hidden;
   width: 200px; 
   padding: 10px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Sombra para profundidad */
-  background: rgba(255, 255, 255, 0.2); /* Fondo semitransparente */
-  backdrop-filter: blur(10px); /* Efecto de desenfoque del fondo */
-  transition: transform 0.2s;
-}
-
-.certificaciones-card:hover {
-  transform: scale(1.03); /* Efecto de zoom al pasar el cursor */
-}
-
-.certificaciones-info {
-  padding: 20px; /* Ajusta el espaciado interno */
-}
-
-.certificaciones-title {
-  font-size: 1.2rem; /* Tamaño de fuente más grande */
-  margin: 0;
-  color: #ffffff; /* Color de texto blanco */
-  font-family: 'Orbitron', sans-serif; /* Fuente 'Orbitron' */
-}
-
-.certificaciones-description {
-  font-size: 1rem; /* Tamaño de fuente más grande */
-  color: #f1f1f1; /* Gris claro para el texto */
-  margin-top: 5px;
-}
-
-.certificaciones-image {
-  width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
-  height: auto; /* Mantiene la proporción de la imagen */
-}
-
-.certificaciones-button {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  background-color: #00bfae; /* Color de fondo del botón */
-  color: white;
-  border: none;
-  border-radius: 0 0 15px 15px; /* Esquinas redondeadas en la parte inferior */
-  cursor: pointer;
-  text-align: center;
-  font-size: 1rem; /* Tamaño de fuente más grande */
-  transition: background-color 0.3s ease;
-}
-
-.certificaciones-button:hover {
-  background-color: #009d89; /* Color de fondo del botón en estado hover */
-}
+  box-shadow: 0 10px 20px rgba(
