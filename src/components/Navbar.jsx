@@ -1,13 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import favicon from '../favicon.ico';
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img src={favicon} alt="Favicon" /> {/* Mostrar el favicon */}
+        <img src="/pdfs/icon.png" alt="Logo" /> {/* Mostrar el icon.png */}
       </div>
       <ul className="navbar-menu">
         <li><Link to="/">Proyectos</Link></li>
@@ -17,6 +16,5 @@ const Navbar = () => {
     </nav>
   );
 };
-
 
 export default Navbar;
