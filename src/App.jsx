@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Proyectos from './components/Proyectos';
-import Certificaciones from './components/Certificaciones';
+import Certificaciones from './pages/Certificaciones';
 
 const App = () => {
   return (
