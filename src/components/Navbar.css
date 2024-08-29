@@ -14,14 +14,14 @@
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2); /* Sombra para profundidad */
 }
 
-.navbar-logo {
-  margin-bottom: 20px; /* Espacio debajo del favicon */
-}
-
-.navbar-logo img {
+.navbar-icon {
   width: 40px; /* Tamaño del favicon */
   height: 40px; /* Tamaño del favicon */
+  margin-bottom: 20px; /* Espaciado inferior para separar el favicon del menú */
+  background: url('/favicon.ico') no-repeat center center; /* Usa el favicon como fondo */
+  background-size: contain; /* Asegura que el favicon se ajuste dentro del contenedor */
 }
+
 
 .navbar-menu {
   list-style: none; 
