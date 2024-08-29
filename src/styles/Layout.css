@@ -1,0 +1,30 @@
+
+
+/* Contenedor principal que alberga la barra de navegación y el contenido principal */
+.main-container {
+  display: flex;
+  height: 100vh; /* Ocupa toda la altura de la ventana */
+}
+
+/* Barra de navegación vertical */
+.sidebar {
+  width: 250px; /* Ancho de la barra de navegación */
+  background-color: #333; /* Color de fondo de la barra de navegación */
+  color: #fff;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+  position: fixed; /* Fija la barra de navegación */
+  height: 100%; /* Ocupa toda la altura */
+}
+
+/* Contenedor de contenido principal */
+.content {
+  flex: 1; /* Ocupa el resto del espacio disponible */
+  padding: 20px;
+  margin-left: 250px; /* Ajusta el margen izquierdo para evitar la superposición con la barra de navegación */
+}
+
+/* Agrega los estilos de tus tarjetas de certificación aquí */
+.certificaciones-container {
+  /* Tus estilos para la sección de certificaciones */
+}
