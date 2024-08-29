@@ -1,83 +1,52 @@
-.home-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 90vh; 
-  background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
-  padding: 20px;
-  color: #ffffff;
-  font-family: 'Roboto', sans-serif; 
-}
-
-.home-header {
-  text-align: center;
-  margin-bottom: 15px;
-  font-size: 2.5rem;
-  color: #ffffff; 
-  font-family: 'Orbitron', sans-serif; 
-}
-
 .projects-grid {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column; /* Coloca las tarjetas en una columna */
   gap: 20px; 
   justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-items: center; /* Centra horizontalmente */
 }
 
 .project-card {
-  border: 1px solid rgba(255, 255, 255, 0.2); /* Borde blanco semi-transparente */
+  display: flex;
+  flex-direction: row; /* Coloca los elementos de la tarjeta en fila */
+  border: 1px solid rgba(255, 255, 255, 0.2); 
   border-radius: 15px;
   overflow: hidden;
-  width: 200px; 
-  padding: 10px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Sombra para profundidad */
-  background: rgba(255, 255, 255, 0.2); /* Fondo semitransparente */
-  backdrop-filter: blur(10px); /* Efecto de desenfoque del fondo */
+  width: 800px; /* Aumenta el ancho para acomodar los elementos */
+  padding: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); 
+  background: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(10px); 
   transition: transform 0.2s;
 }
 
-.project-card:hover {
-  transform: scale(1.03); /* Efecto de zoom al pasar el cursor */
-}
-
 .project-info {
-  padding: 20px; /* Ajusta el espaciado interno */
-}
-
-.project-title {
-  font-size: 1.2rem; /* Tamaño de fuente más grande */
-  margin: 0;
-  color: #ffffff; /* Color de texto blanco */
-  font-family: 'Orbitron', sans-serif; /* Fuente 'Orbitron' */
-}
-
-.project-description {
-  font-size: 1rem; /* Tamaño de fuente más grande */
-  color: #f1f1f1; /* Gris claro para el texto */
-  margin-top: 5px;
+  flex: 2; /* Ocupa más espacio en la tarjeta */
+  padding: 0 20px; /* Ajusta el espaciado interno */
 }
 
 .project-image {
-  width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
-  height: auto; /* Mantiene la proporción de la imagen */
+  flex: 1; /* Imagen ocupa menos espacio */
+  max-width: 200px; /* Controla el tamaño máximo de la imagen */
+  margin-right: 20px; /* Espacio entre imagen y texto */
+  border-radius: 10px; /* Añadir bordes redondeados a la imagen */
 }
 
 .home-button {
   display: block;
-  width: 100%;
+  width: 150px; /* Tamaño del botón */
+  margin-left: auto; /* Alinea el botón al final */
   padding: 10px;
-  background-color: #00bfae; /* Color de fondo del botón */
+  background-color: #00bfae; 
   color: white;
   border: none;
-  border-radius: 0 0 15px 15px; /* Esquinas redondeadas en la parte inferior */
+  border-radius: 15px; 
   cursor: pointer;
   text-align: center;
-  font-size: 1rem; /* Tamaño de fuente más grande */
+  font-size: 1rem; 
   transition: background-color 0.3s ease;
 }
 
 .home-button:hover {
-  background-color: #009d89; /* Color de fondo del botón en estado hover */
+  background-color: #009d89; 
 }
