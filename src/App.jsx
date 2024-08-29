@@ -9,9 +9,9 @@ const App = () => {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/proyectos" element={<About />} /> {/* Cambia 'Proyectos' por el componente correcto */}
-        <Route path="/certificaciones" element={<Certificaciones />} />
+        <Route path="/" element={<Home />} /> 
+        <Route path="/about" element={<About />} /> 
+        <Route path="/certificaciones" element={<Certificaciones />} /> 
       </Routes>
     </Router>
   );
