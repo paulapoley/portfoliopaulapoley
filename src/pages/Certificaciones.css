@@ -1,10 +1,21 @@
 .certificaciones-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
   padding: 20px;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
 }
 
 .certificaciones-header {
   text-align: center;
   margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #ffffff;
+  font-family: 'Orbitron', sans-serif;
 }
 
 .certificaciones-grid {
@@ -15,13 +26,15 @@
 }
 
 .certificacion-card {
-  border: 1px solid #ddd;
-  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Color de borde más suave para contraste */
+  border-radius: 15px;
   overflow: hidden;
   width: 300px;
   text-align: center;
-  padding: 10px;
-  background-color: #fff;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.2); /* Fondo semitransparente */
+  backdrop-filter: blur(10px); /* Desenfoque de fondo */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Sombra para profundidad */
 }
 
 .certificacion-image {
@@ -31,11 +44,13 @@
 }
 
 .certificacion-title {
-  font-size: 1.2em;
+  font-size: 1.5rem;
+  color: #ffffff;
   margin: 10px 0;
+  font-family: 'Orbitron', sans-serif;
 }
 
 .certificacion-description {
-  font-size: 1em;
-  color: #555;
+  font-size: 1rem;
+  color: #f1f1f1;
 }
