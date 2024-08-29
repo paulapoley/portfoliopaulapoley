@@ -21,7 +21,7 @@
 .certifications-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Ajusta automáticamente el número de columnas */
-  gap: 20px; /* Espacio entre las tarjetas */
+  gap: 30px; /* Espacio entre las tarjetas, ajustado para mayor separación */
   justify-items: center; /* Centra las tarjetas dentro de las columnas */
   width: 100%; /* Asegura que la cuadrícula ocupe el ancho completo */
 }
@@ -78,8 +78,9 @@
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+/* Elimina o comenta las siguientes líneas */
 .cert-button {
-  display: inline-block;
+  display: none;
   background-color: #ff8c00;
   color: #ffffff;
   border: none;
