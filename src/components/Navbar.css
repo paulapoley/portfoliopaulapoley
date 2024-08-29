@@ -3,7 +3,7 @@
 /* Barra de navegación vertical */
 .navbar {
   width: 180px; /* Ancho de la barra de navegación */
-  background-color: #333; /* Color de fondo de la barra de navegación */
+  background-color: #ffffff; /* Color de fondo de la barra de navegación */
   color: #fff;
   padding: 20px;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
@@ -17,11 +17,11 @@
 /* Logo en la barra de navegación */
 .navbar-logo {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .navbar-image {
-  width: 100px; /* Ajusta el tamaño del logo según sea necesario */
+  width: 150px; /* Ajusta el tamaño del logo según sea necesario */
   height: auto;
 }
 
@@ -37,12 +37,12 @@
 }
 
 .navbar-menu a {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   display: block;
   padding: 10px;
   border-radius: 4px;
-  font-size: 16px; /* Tamaño de fuente para los enlaces */
+  font-size: 20px; /* Tamaño de fuente para los enlaces */
 }
 
 .navbar-menu a:hover {
