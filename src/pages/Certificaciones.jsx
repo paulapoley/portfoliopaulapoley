@@ -5,8 +5,10 @@ const Certificaciones = () => {
   // Array de cursos con nombre e imagen
   const cursos = [
     { id: 1, title: 'Curso 1', imgSrc: '/pdfs/p1.jpg', description: 'Descripción del curso 1' },
-    { id: 2, title: 'Curso 2', imgSrc: '/pdfs/p2.jpg', description: 'Descripción del curso 2' },
-    { id: 3, title: 'Curso 3', imgSrc: '/pdfs/p3.jpg', description: 'Descripción del curso 3' },
+    { id: 2, title: 'Inteligencia Artificial y Big Data al Servicio de los Procesos de Selección de Personal', imgSrc: '/pdfs/IABigData.jpg', description: 'Certificado con el número de identificación: EC29160/15680' },
+    { id: 3, title: 'Introducción al Desarrollo de Aplicaciones Web', imgSrc: '/pdfs/AppWeb.jpg', description: 'Certificado con el número de identificación: EC29160/16109' },
+    { id: 4, title: 'Curso: Diagnóstico por Imagen', imgSrc: '/pdfs/DiagnosticoPorImagen.jpg', description: 'Certificado con el número de identificación: 1102021041669' },
+    { id: 5, title: 'Curso: Nuevas Técnicas de Imagen', imgSrc: '/pdfs/NuevasTecnicas.jpg', description: 'Certificado con el número de identificación: 1102021043050' },
    
   ];
   return (
