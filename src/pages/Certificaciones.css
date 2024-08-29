@@ -19,17 +19,17 @@
 }
 
 .certifications-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px; 
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Crea 3 columnas de igual ancho */
+  gap: 20px; /* Espacio entre las tarjetas */
+  justify-items: center; /* Centra las tarjetas dentro de las columnas */
 }
 
 .cert-card {
   border: 1px solid rgba(255, 255, 255, 0.2); /* Borde blanco semi-transparente */
   border-radius: 15px;
   overflow: hidden;
-  width: 250px; /* Incremento el ancho para una mejor visualización de las imágenes */
+  width: 250px; /* Ajustado para una mejor visualización de las imágenes */
   padding: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
   background: rgba(255, 255, 255, 0.2); /* Fondo semitransparente */
@@ -84,4 +84,3 @@
 .cert-button:hover {
   background-color: #e67e22;
 }
-
