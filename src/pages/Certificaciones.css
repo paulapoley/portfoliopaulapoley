@@ -29,7 +29,7 @@
   border: 1px solid rgba(255, 255, 255, 0.2); /* Color de borde más suave para contraste */
   border-radius: 15px;
   overflow: hidden;
-  width: 100px;
+  width: 200px;
   text-align: center;
   padding: 10px;
   background: rgba(255, 255, 255, 0.2); /* Fondo semitransparente */
@@ -40,7 +40,6 @@
 .certificacion-image {
   width: 100%;
   height: auto;
-  max-height: 150px;
   object-fit: cover;
 }
 
