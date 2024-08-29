@@ -6,9 +6,9 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <ul className="navbar-menu">
-        <li><Link to="/">Inicio</Link></li>
-        <li><Link to="/proyectos">Proyectos</Link></li>
-        <li><Link to="/certificaciones">Certificaciones</Link></li>
+        <li><Link to="/">Proyectos</Link></li> 
+        <li><Link to="/about">Sobre mí</Link></li> 
+        <li><Link to="/certificaciones">Certificaciones</Link></li> 
       </ul>
     </nav>
   );
