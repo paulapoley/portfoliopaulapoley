@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <div className="home-container">
       <header className="home-header">
-        <h1>Proyectos realizados:</h1>
+        <h1>Proyectos realizados</h1>
       </header>
 
       <div className="projects-grid">
