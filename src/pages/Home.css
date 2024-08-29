@@ -1,38 +1,36 @@
-
-
 .home-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; /* Ajusta la altura mínima para llenar la pantalla */
+  min-height: 90vh; 
   background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
   padding: 20px;
-  color: #ffffff; /* Color de texto blanco para contraste */
-  font-family: 'Roboto', sans-serif; /* Usa la fuente 'Roboto' */
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif; 
 }
 
 .home-header {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   font-size: 2.5rem;
-  color: #ffffff; /* Color de texto blanco */
-  font-family: 'Orbitron', sans-serif; /* Fuente 'Orbitron' para los encabezados */
+  color: #ffffff; 
+  font-family: 'Orbitron', sans-serif; 
 }
 
 .projects-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px; /* Aumenta el espacio entre tarjetas */
+  gap: 20px; 
   justify-content: center;
 }
 
 .project-card {
   border: 1px solid rgba(255, 255, 255, 0.2); /* Borde blanco semi-transparente */
-  border-radius: 8px;
+  border-radius: 15px;
   overflow: hidden;
-  max-width: 200px; /* Ajusta el ancho máximo de la tarjeta */
-  max-height: 200px;
+  width: 200px; 
+  padding: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Sombra para profundidad */
   background: rgba(255, 255, 255, 0.2); /* Fondo semitransparente */
   backdrop-filter: blur(10px); /* Efecto de desenfoque del fondo */
