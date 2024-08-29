@@ -1,48 +1,61 @@
-/* Home.css */
+
 
 .home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ajusta la altura mínima para llenar la pantalla */
+  background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
   padding: 20px;
-  font-family: Arial, sans-serif;
+  color: #ffffff; /* Color de texto blanco para contraste */
+  font-family: 'Roboto', sans-serif; /* Usa la fuente 'Roboto' */
 }
 
 .home-header {
   text-align: center;
   margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #ffffff; /* Color de texto blanco */
+  font-family: 'Orbitron', sans-serif; /* Fuente 'Orbitron' para los encabezados */
 }
 
 .projects-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px; /* Aumenta el espacio entre tarjetas */
   justify-content: center;
 }
 
 .project-card {
-  border: 1px solid #ddd;
-  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Borde blanco semi-transparente */
+  border-radius: 15px;
   overflow: hidden;
-  max-width: 200px; /* Ajusta el ancho máximo de la tarjeta */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
+  max-width: 300px; /* Ajusta el ancho máximo de la tarjeta */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Sombra para profundidad */
+  background: rgba(255, 255, 255, 0.2); /* Fondo semitransparente */
+  backdrop-filter: blur(10px); /* Efecto de desenfoque del fondo */
   transition: transform 0.2s;
 }
 
 .project-card:hover {
-  transform: scale(1.03);
+  transform: scale(1.03); /* Efecto de zoom al pasar el cursor */
 }
 
 .project-info {
-  padding: 10px;
+  padding: 20px; /* Ajusta el espaciado interno */
 }
 
 .project-title {
-  font-size: 16px; /* Tamaño de fuente más pequeño */
+  font-size: 1.2rem; /* Tamaño de fuente más grande */
   margin: 0;
+  color: #ffffff; /* Color de texto blanco */
+  font-family: 'Orbitron', sans-serif; /* Fuente 'Orbitron' */
 }
 
 .project-description {
-  font-size: 14px; /* Tamaño de fuente más pequeño */
-  color: #666;
+  font-size: 1rem; /* Tamaño de fuente más grande */
+  color: #f1f1f1; /* Gris claro para el texto */
   margin-top: 5px;
 }
 
@@ -55,15 +68,16 @@
   display: block;
   width: 100%;
   padding: 10px;
-  background-color: #007bff;
+  background-color: #00bfae; /* Color de fondo del botón */
   color: white;
   border: none;
-  border-radius: 0 0 8px 8px;
+  border-radius: 0 0 15px 15px; /* Esquinas redondeadas en la parte inferior */
   cursor: pointer;
   text-align: center;
-  font-size: 14px; /* Tamaño de fuente más pequeño */
+  font-size: 1rem; /* Tamaño de fuente más grande */
+  transition: background-color 0.3s ease;
 }
 
 .home-button:hover {
-  background-color: #0056b3;
+  background-color: #009d89; /* Color de fondo del botón en estado hover */
 }
