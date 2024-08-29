@@ -4,12 +4,11 @@ import './Certificaciones.css'; // Estilos opcionales para esta página
 const Certificaciones = () => {
   // Array de cursos con nombre e imagen
   const cursos = [
-    { id: 1, title: 'Curso 1', imgSrc: '/public/pdfs/p1.jpg', description: 'Descripción del curso 1' },
-    { id: 2, title: 'Curso 2', imgSrc: '/public/pdfs/p2.jpg', description: 'Descripción del curso 2' },
-    { id: 3, title: 'Curso 3', imgSrc: '/public/pdfs/p3.jpg', description: 'Descripción del curso 3' },
+    { id: 1, title: 'Curso 1', imgSrc: '/pdfs/p1.jpg', description: 'Descripción del curso 1' },
+    { id: 2, title: 'Curso 2', imgSrc: '/pdfs/p2.jpg', description: 'Descripción del curso 2' },
+    { id: 3, title: 'Curso 3', imgSrc: '/pdfs/p3.jpg', description: 'Descripción del curso 3' },
    
   ];
-
   return (
     <div className="certificaciones-container">
       <header className="certificaciones-header">
