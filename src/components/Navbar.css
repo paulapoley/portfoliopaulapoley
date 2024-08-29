@@ -1,50 +1,50 @@
-/* Navbar.css */
+/* src/components/Navbar.css */
 
+/* Barra de navegación vertical */
 .navbar {
-  position: fixed; /* Fija la barra de navegación a la izquierda de la ventana */
-  top: 0;
-  left: 0;
-  height: 100vh; /* Ocupa toda la altura de la ventana */
-  width: 250px; /* Ajusta el ancho según sea necesario */
+  width: 250px; /* Ancho de la barra de navegación */
   background-color: #333; /* Color de fondo de la barra de navegación */
-  display: flex;
-  flex-direction: column; /* Disposición vertical */
-  align-items: center; /* Centra los elementos horizontalmente */
-  padding-top: 20px; /* Espacio en la parte superior */
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2); /* Sombra para profundidad */
+  color: #fff;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+  position: fixed; /* Fija la barra de navegación */
+  height: 100%; /* Ocupa toda la altura */
+  top: 0; /* Alinea la barra con el borde superior */
+  left: 0; /* Alinea la barra con el borde izquierdo */
+  z-index: 1000; /* Asegúrate de que esté por encima del contenido principal */
 }
 
+/* Logo en la barra de navegación */
 .navbar-logo {
-  margin-bottom: 50px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .navbar-image {
-  width: 140px; 
+  width: 100px; /* Ajusta el tamaño del logo según sea necesario */
   height: auto;
 }
+
+/* Menú de navegación */
 .navbar-menu {
-  list-style: none; 
+  list-style-type: none;
   padding: 0;
   margin: 0;
-  width: 100%; 
 }
 
 .navbar-menu li {
-  width: 100%; 
+  margin: 10px 0;
 }
 
 .navbar-menu a {
-  display: block; 
-  text-align: center;
-  padding: 15px; 
+  color: #fff;
   text-decoration: none;
-  color: #ffffff; /* Color del texto */
-  font-size: 1.3rem; /* Tamaño de fuente para los enlaces */
-  font-family: 'Roboto', sans-serif; /* Fuente para los enlaces */
-  transition: background-color 0.3s ease, color 0.3s ease;
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 16px; /* Tamaño de fuente para los enlaces */
 }
 
 .navbar-menu a:hover {
-  background-color: #444; /* Color de fondo al pasar el cursor */
-  color: #00d8ff; /* Color del texto cuando se pasa el ratón sobre el enlace */
+  background-color: #575757; /* Color de fondo al pasar el ratón */
 }
