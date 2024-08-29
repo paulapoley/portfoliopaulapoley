@@ -20,7 +20,6 @@ const Certificaciones = () => {
             <div className="cert-info">
               <h2 className="cert-title">{cert.title}</h2>
               <p className="cert-description">{cert.description}</p>
-              <button className="cert-button">Ver Más</button>
             </div>
           </div>
         ))}
