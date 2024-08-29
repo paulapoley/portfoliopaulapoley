@@ -44,12 +44,13 @@
 .cert-info {
   text-align: center;
   margin-bottom: 10px;
+  color: #000000;
 }
 
 .cert-title {
   font-size: 1.2rem;
   margin: 10px 0;
-  color: #000000;
+  color: #ffffff;
   font-family: 'Orbitron', sans-serif;
 }
 
