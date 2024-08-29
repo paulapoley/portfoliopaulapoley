@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
 import Certificaciones from './pages/Certificaciones';
-import './Layout.css'; 
+import './styles/Layout.css';
 
 const App = () => {
   return (
