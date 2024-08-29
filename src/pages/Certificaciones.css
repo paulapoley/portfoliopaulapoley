@@ -25,10 +25,15 @@
   justify-content: center;
 }
 
-.cert-card {
+    .cert-card {
   border: 1px solid rgba(255, 255, 255, 0.2); /* Borde blanco semi-transparente */
   border-radius: 15px;
   overflow: hidden;
   width: 200px; 
   padding: 10px;
-  box-shadow: 0 10px 20px rgba(
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* <- Completa el valor del color RGBA */
+  background: rgba(255, 255, 255, 0.2); /* Fondo semitransparente */
+  backdrop-filter: blur(10px); /* Efecto de desenfoque del fondo */
+  transition: transform 0.2s;
+}
+
