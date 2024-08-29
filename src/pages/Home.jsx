@@ -5,8 +5,8 @@ const Home = () => {
   const projects = [
     { 
       id: 1, 
-      title: 'Influencia de Variables Exógenas en la Detección de Enfermedades de Piel mediante Redes Neuronales', 
-      description: 'Análisis de cómo las variables externas (ubicación de la lesión, edad, sexo y tipo de diagnóstico) afectan la precisión de modelos de CNN en la detección de enfermedades cutáneas', 
+      title: 'TFG- Influencia de Variables Exógenas en la Detección de Enfermedades de Piel mediante Redes Neuronales', 
+      description: 'Análisis de cómo las variables externas (ubicación de la lesión, edad, sexo y tipo de diagnóstico) afectan la precisión de modelos de CNN en la detección de enfermedades cutáneas.', 
       imgSrc: '/pdfs/TFG-PAULAPOLEY.jpg', 
       pdfSrc: '/pdfs/TFG-PAULAPOLEY.pdf' 
     },
