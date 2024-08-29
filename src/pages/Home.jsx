@@ -26,8 +26,8 @@ const Home = () => {
     },
     { 
       id: 4, 
-      title: 'Análisis de datos con Weka', 
-      description: 'Estudio y manejo de herramientas de análisis de datos utilizando la plataforma Weka.', 
+      title: 'Análisis de datos con Weka, optimización y evaluación de modelos de aprendizaje automático.', 
+      description: 'Implementación y ajuste de modelos de machine learning en Weka, incluyendo Bagging y agrupamiento con SimpleKMeans y EM. Optimización de parámetros y evaluación de rendimiento para mejorar la precisión y crear clasificadores personalizados.', 
       imgSrc: '/pdfs/p1.jpg', 
       pdfSrc: '/pdfs/proyecto1.pdf' 
     },
