@@ -29,9 +29,9 @@
   border: 1px solid rgba(255, 255, 255, 0.2); /* Color de borde más suave para contraste */
   border-radius: 15px;
   overflow: hidden;
-  width: 300px;
+  width: 100px;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   background: rgba(255, 255, 255, 0.2); /* Fondo semitransparente */
   backdrop-filter: blur(10px); /* Desenfoque de fondo */
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Sombra para profundidad */
@@ -40,6 +40,7 @@
 .certificacion-image {
   width: 100%;
   height: auto;
+  max-height: 100px;
   object-fit: cover;
 }
 
