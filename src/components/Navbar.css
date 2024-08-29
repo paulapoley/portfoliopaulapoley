@@ -15,11 +15,11 @@
 }
 
 .navbar-logo {
-  margin-bottom: 20px;
+  margin-bottom: 50px; # el margen
 }
 
 .navbar-image {
-  width: 100px;
+  width: 140px; #aumenta tamaño imagen
   height: auto;
 }
 .navbar-menu {
