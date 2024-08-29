@@ -20,7 +20,7 @@ const Home = () => {
     { 
       id: 3, 
       title: 'Digitalización de la autenticación y el control de acceso para servicio de salud de comunidad autónoma', 
-      description: 'Automatización de procesos de autenticación y control de acceso en sistemas de salud.', 
+      description: 'Implementación y gestión de certificados digitales para asegurar comunicaciones en servicios de salud. Incluye instalación y verificación de certificados, firma y validación de documentos, y automatización de políticas de control de acceso.', 
       imgSrc: '/pdfs/p2.jpg', 
       pdfSrc: '/pdfs/proyecto2.pdf' 
     },
