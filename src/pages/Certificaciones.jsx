@@ -4,7 +4,7 @@ import './Certificaciones.css'; // Estilos opcionales para esta página
 const Certificaciones = () => {
   // Array de cursos con nombre e imagen
   const cursos = [
-    { id: 1, title: 'Curso 1', imgSrc: '/pdfs/p1.jpg', description: 'Descripción del curso 1' },
+    { id: 1, title: 'Curso 1', imgSrc: '/pdfs/IABigData.jpg', description: 'Descripción del curso 1' },
     { id: 2, title: 'Inteligencia Artificial y Big Data al Servicio de los Procesos de Selección de Personal', imgSrc: '/pdfs/IABigData.jpg', description: 'Certificado con el número de identificación: EC29160/15680' },
     { id: 3, title: 'Introducción al Desarrollo de Aplicaciones Web', imgSrc: '/pdfs/AppWeb.jpg', description: 'Certificado con el número de identificación: EC29160/16109' },
     { id: 4, title: 'Curso: Diagnóstico por Imagen', imgSrc: '/pdfs/DiagnosticoPorImagen.jpg', description: 'Certificado con el número de identificación: 1102021041669' },
