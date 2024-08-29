@@ -2,7 +2,7 @@
 
 /* Barra de navegación vertical */
 .navbar {
-  width: 250px; /* Ancho de la barra de navegación */
+  width: 180px; /* Ancho de la barra de navegación */
   background-color: #333; /* Color de fondo de la barra de navegación */
   color: #fff;
   padding: 20px;
