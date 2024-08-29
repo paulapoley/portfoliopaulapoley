@@ -20,7 +20,7 @@
 
 .certifications-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Crea 3 columnas de igual ancho */
+  grid-template-columns: repeat(2, 1fr); 
   gap: 20px; /* Espacio entre las tarjetas */
   justify-items: center; /* Centra las tarjetas dentro de las columnas */
 }
