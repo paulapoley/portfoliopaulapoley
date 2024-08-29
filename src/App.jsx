@@ -1,22 +1,20 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
-import ProjectCard from './components/ProjectCard';
 import Certificaciones from './pages/Certificaciones';
-
+import About from './pages/About'; 
 const App = () => {
   return (
     <Router>
       <Navbar />
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/proyectos" component={Proyectos} />
-        <Route path="/certificaciones" component={Certificaciones} />
-      </Switch>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/proyectos" element={<About />} /> {/* Cambia 'Proyectos' por el componente correcto */}
+        <Route path="/certificaciones" element={<Certificaciones />} />
+      </Routes>
     </Router>
   );
 };
 
 export default App;
-
