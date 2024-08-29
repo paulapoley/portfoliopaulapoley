@@ -7,7 +7,7 @@ const Certificaciones = () => {
     { id: 1, title: 'Curso 1', imgSrc: '/public/pdfs/p1.jpg', description: 'Descripción del curso 1' },
     { id: 2, title: 'Curso 2', imgSrc: '/public/pdfs/p2.jpg', description: 'Descripción del curso 2' },
     { id: 3, title: 'Curso 3', imgSrc: '/public/pdfs/p3.jpg', description: 'Descripción del curso 3' },
-    // Añade más cursos aquí
+   
   ];
 
   return (
