@@ -20,7 +20,7 @@
 
 .certificaciones-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual ancho */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Dos columnas de igual ancho */
   gap: 20px; /* Espacio entre las tarjetas */
   width: 100%;
   max-width: 1200px; /* Ancho máximo para el contenedor */
@@ -36,6 +36,7 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Sombra para profundidad */
   padding: 10px;
   text-align: center;
+  max-width: 100%;
 }
 
 .certificacion-image {
