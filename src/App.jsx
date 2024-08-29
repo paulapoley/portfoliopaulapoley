@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';  // Cambia Switch por Routes
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -10,12 +10,11 @@ const App = () => {
     <Router>
       <Navbar />
       <div className="content">
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/sobre-mi" component={About} />
-          <Route path="/certificaciones" component={Certificaciones} />
-          {/* Agrega otras rutas según sea necesario */}
-        </Switch>
+        <Routes> {/* Cambia Switch por Routes */}
+          <Route path="/" element={<Home />} />
+          <Route path="/sobre-mi" element={<About />} />
+          <Route path="/certificaciones" element={<Certificaciones />} />
+        </Routes>
       </div>
     </Router>
   );
