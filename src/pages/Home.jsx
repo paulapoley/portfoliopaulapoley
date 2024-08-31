@@ -13,7 +13,7 @@ const Home = () => {
     },
     { 
       id: 2, 
-      title: 'Computación en la nube con amazon web services (AWS).', 
+      title: 'Computación en la Nube con Amazon Web Services (AWS).', 
       description: 'Uso de Amazon Web Services (AWS) para implementar y gestionar instancias EC2, configurar balanceadores de carga, y asignar direcciones IP fijas. El objetivo es familiarizarse con la infraestructura en la nube y aprender a manejar diferentes servicios y configuraciones dentro de AWS.', 
       imgSrc: '/pdfs/AWS.jpg', 
       pdfSrc: '/pdfs/Computacion-nube-AWS-PPC.pdf',
@@ -29,7 +29,7 @@ const Home = () => {
     },
     { 
       id: 4, 
-      title: 'Digitalización de la autenticación y el control de acceso para servicio de salud de comunidad autónoma', 
+      title: 'Digitalización de la Autenticación y el Control de Acceso para Servicio de Salud de Comunidad Autónoma', 
       description: 'Implementación y gestión de certificados digitales para asegurar comunicaciones en servicios de salud. Incluye instalación y verificación de certificados, firma y validación de documentos, y automatización de políticas de control de acceso.', 
       imgSrc: '/pdfs/p2.jpg', 
       pdfSrc: '/pdfs/proyecto2.pdf',
@@ -37,11 +37,19 @@ const Home = () => {
     },
     { 
       id: 5, 
-      title: 'Análisis de datos con Weka, optimización y evaluación de modelos de aprendizaje automático.', 
+      title: 'Análisis de Datos con Weka, Optimización y Evaluación de Modelos de Aprendizaje Automático.', 
       description: 'Implementación y ajuste de modelos de machine learning en Weka, incluyendo Bagging y agrupamiento con SimpleKMeans y EM. Optimización de parámetros y evaluación de rendimiento para mejorar la precisión y crear clasificadores personalizados.', 
       imgSrc: '/pdfs/p1.jpg', 
       pdfSrc: '/pdfs/proyecto1.pdf',
       topics: ['Weka', 'machine learning', 'optimización', 'clasificadores']
+    },
+    { 
+      id: 6, 
+      title: 'Computación Paralela con Computadores de Memoria Distribuida usando MPI', 
+      description: 'Se exploraron y aplicaron técnicas de computación paralela utilizando MPI en sistemas de memoria distribuida. Se modificaron y optimizaron programas para medir tiempos de ejecución, realizar estimaciones numéricas y analizar el rendimiento en diferentes configuraciones de procesos. La práctica incluyó ejercicios que abarcaron desde la modificación básica de programas hasta la ejecución paralela en múltiples PCs.', 
+      imgSrc: '/pdfs/MPI.jpg', 
+      pdfSrc: '/pdfs/MPI--ASSB.pdf',
+        topics: ['C', 'Linux', 'gnuplot', 'openmpi']
     },
   ];
 
