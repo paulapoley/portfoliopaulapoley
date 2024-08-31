@@ -9,6 +9,8 @@ const Home = () => {
       description: 'Este TFG explora cómo variables exógenas (ubicación de la lesión, edad, sexo del paciente y tipo de diagnóstico) afectan la precisión de modelos de redes neuronales convolucionales (CNN) para la detección de enfermedades cutáneas. Se comparan modelos con y sin estas variables adicionales para evaluar mejoras en la clasificación de imágenes médicas.', 
       imgSrc: '/pdfs/TFG-PAULAPOLEY.jpg', 
       pdfSrc: '/pdfs/TFG-PAULAPOLEY.pdf' 
+      topics: ['python', 'machine learning', 'deep learning', 'artificial intelligence', 'image classification'] 
+
     },
     { 
       id: 2, 
