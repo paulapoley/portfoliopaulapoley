@@ -97,6 +97,17 @@
   text-align: left; /* Alinea el texto a la izquierda */
 }
 
+/* Estilos para los topics debajo de la descripción */
+.project-topics {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #cccccc; /* Color de los topics */
+}
+
+.topic {
+  margin-right: 10px;
+}
+
 /* Estilos para la imagen del proyecto */
 .project-image {
   flex: 1;
