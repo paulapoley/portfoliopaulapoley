@@ -20,6 +20,15 @@ const Home = () => {
       topics: ['Gestión de Proyectos', 'Agile Methodologies', 'Project Planning','Risk Management' ]
     },
     { 
+      id: 3, 
+      title: 'QRHealth: Gestión Digital de Historias Clínicas con Código QR', 
+      description: 'Proyecto de investigación y desarrollo (I+D+i) enfocado en crear una solución innovadora para la gestión de historias clínicas mediante códigos QR. QRHealth mejora la accesibilidad y seguridad de los datos médicos, permitiendo a los usuarios acceder a su información sanitaria a través de autenticación digital y sincronización con sistemas como Diraya. El proyecto busca impulsar la digitalización del sector salud en España, integrando tecnologías avanzadas para optimizar la gestión de la información clínica a nivel nacional. El proyecto incluye documentación completa, como modelos de solicitud, memoria técnica, memoria económica, diario del proyecto y la presentación final.', 
+      imgSrc: '/pdfs/GPI-img.jpg', 
+      pdfSrc: '/pdfs/GPI.pdf',
+      pdfSrc2: "/pdfs/ QRHealth.pdf",
+      topics: ['Gestión de Proyectos', 'Salud digital', 'I+D+i' ]
+    },
+    { 
       id: 4, 
       title: 'App HUA+', 
       description: 'La aplicación móvil desarrollada en Android Studio utilizando Kotlin, HUA+, está enfocada en la gestión y provisión de información sobre la Hemorragia Uterina Anormal (HUA), dirigida tanto a pacientes como a profesionales médicos.', 
