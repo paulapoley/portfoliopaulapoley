@@ -13,6 +13,14 @@ const Home = () => {
     },
     { 
       id: 2, 
+      title: 'Proyecto Delfos: Gestión y Análisis de Datos Clínicos y Genéticos por Salud Coding.', 
+      description: 'Proyecto Delfos es una solución integral para el análisis de datos clínicos y genéticos, incluyendo desarrollo de software, promoción, y análisis de riesgos. La implementación abarca desde la planificación y desarrollo hasta la entrega final, con un enfoque en la calidad y eficiencia del proceso. Incluye la estructura de tareas, coste, y documentación técnica del proyecto.', 
+      imgSrc: '/pdfs/[SALUD CODING] Memoria del Proyecto DELFOS-PPC.jpg', 
+      pdfSrc: '/pdfs/[SALUD CODING] Memoria del Proyecto DELFOS -PPC.pdf',
+      topics: ['Gestión de Proyectos', 'Agile Methodologies', 'Project Planning','Risk Management' ]
+    },
+    { 
+      id: 4, 
       title: 'App HUA+', 
       description: 'La aplicación móvil desarrollada en Android Studio utilizando Kotlin, HUA+, está enfocada en la gestión y provisión de información sobre la Hemorragia Uterina Anormal (HUA), dirigida tanto a pacientes como a profesionales médicos.', 
       imgSrc: '/pdfs/app-hua.png', 
@@ -20,7 +28,7 @@ const Home = () => {
       topics: ['BPMN', 'Kotlin-Android Studio', 'Firebase-Authentication']
     },
     { 
-      id: 3, 
+      id: 5, 
       title: 'ClínicaConnect: App Móvil para Gestión de Citas Médicas y Tratamientos. Generación de un POC (Proof of Concept).', 
       description: 'Es una aplicación integral para la gestión de clínicas, diseñada para médicos, administrativos y profesionales de atención al paciente. Ofrece funcionalidades avanzadas para la gestión de citas, tratamientos, pacientes, y comunicación, optimizando la eficiencia en la atención médica y administrativa.', 
       imgSrc: '/pdfs/POC-PPC.jpg', 
@@ -29,7 +37,7 @@ const Home = () => {
       topics: ['HTML5', 'Visual Paradigm', 'Requisitos', 'Mocap', 'User Interface','Prototyping','Mockups', 'Marvel App']
     },
     { 
-      id: 4, 
+      id: 6, 
       title: 'Computación en la Nube con Amazon Web Services (AWS).', 
       description: 'Uso de Amazon Web Services (AWS) para implementar y gestionar instancias EC2, configurar balanceadores de carga, y asignar direcciones IP fijas. El objetivo es familiarizarse con la infraestructura en la nube y aprender a manejar diferentes servicios y configuraciones dentro de AWS.', 
       imgSrc: '/pdfs/AWS.jpg', 
@@ -37,7 +45,7 @@ const Home = () => {
       topics: ['AWS', 'EC2', 'Ubuntu Server', 'Cloudcomputing']
     },
     { 
-      id: 5, 
+      id: 7, 
       title: 'BYODSEC: Implementación de BYOD en una Entidad Hospitalaria con VPN Road Warrior TLS', 
       description: 'Implementación de una arquitectura segura cliente-servidor en Java utilizando TLS para asegurar las comunicaciones. Se configuraron KeyStores, se desarrollaron sockets TLS y se validó el rendimiento para manejar hasta 300 conexiones concurrentes, garantizando autenticación y cifrado de datos.', 
       imgSrc: '/pdfs/p3.jpg', 
@@ -45,7 +53,7 @@ const Home = () => {
       topics: ['Java', 'TLS', 'VPN', 'BYOD', 'Seguridad']
     },
     { 
-      id: 6, 
+      id: 8, 
       title: 'Digitalización de la Autenticación y el Control de Acceso para Servicio de Salud de Comunidad Autónoma', 
       description: 'Implementación y gestión de certificados digitales para asegurar comunicaciones en servicios de salud. Incluye instalación y verificación de certificados, firma y validación de documentos, y automatización de políticas de control de acceso.', 
       imgSrc: '/pdfs/p2.jpg', 
@@ -53,7 +61,7 @@ const Home = () => {
       topics: ['Certificados Digitales', 'Seguridad', 'Automatización', 'Control de Acceso']
     },
     { 
-      id: 7, 
+      id: 9, 
       title: 'Análisis de Datos con Weka, Optimización y Evaluación de Modelos de Aprendizaje Automático.', 
       description: 'Implementación y ajuste de modelos de machine learning en Weka, incluyendo Bagging y agrupamiento con SimpleKMeans y EM. Optimización de parámetros y evaluación de rendimiento para mejorar la precisión y crear clasificadores personalizados.', 
       imgSrc: '/pdfs/p1.jpg', 
@@ -61,7 +69,7 @@ const Home = () => {
       topics: ['Weka', 'Machine Learning', 'Optimización', 'Clasificadores']
     },
     { 
-      id: 8, 
+      id: 10, 
       title: 'Bone Marrow Transplant: Children Data Set', 
       description: 'Análisis predictivo de trasplante de médula ósea en pacientes pediátricos utilizando modelos de regresión logística y random forest. Incluye análisis y visualizaciones de datos clínicos para predecir la recaída post-trasplante.', 
       imgSrc: '/pdfs/bone.png', 
@@ -69,7 +77,7 @@ const Home = () => {
       topics: ['Data Science', 'Machine Learning', 'R', 'Random Forest']
     },
     { 
-      id: 9, 
+      id: 11, 
       title: 'Programación de Procesadores Multinúcleo usando OpenMP', 
       description: 'aborda la programación de procesadores multinúcleo utilizando OpenMP en un entorno Linux, explorando técnicas de paralelización, sincronización de hilos, y optimización del rendimiento en cálculos complejos como la estimación del valor de Pi.', 
       imgSrc: '/pdfs/openmp.jpg', 
@@ -77,7 +85,7 @@ const Home = () => {
         topics: ['Linux', 'OpenMP', 'Parallel Computing']
     },
     { 
-      id: 10, 
+      id: 12, 
       title: 'Computación Paralela con Computadores de Memoria Distribuida usando MPI', 
       description: 'Se exploraron y aplicaron técnicas de computación paralela utilizando MPI en sistemas de memoria distribuida. Se modificaron y optimizaron programas para medir tiempos de ejecución, realizar estimaciones numéricas y analizar el rendimiento en diferentes configuraciones de procesos. La práctica incluyó ejercicios que abarcaron desde la modificación básica de programas hasta la ejecución paralela en múltiples PCs.', 
       imgSrc: '/pdfs/MPI.jpg', 
@@ -85,7 +93,7 @@ const Home = () => {
         topics: ['C', 'Linux', 'gnuplot', 'Open MPI']
     },
     { 
-      id: 11, 
+      id: 13, 
       title: 'Análisis de Señales Fisiológicas: ECG, EEG y EMG con OpenSignals.', 
       description: 'Este proyecto explora la medición y análisis de señales fisiológicas utilizando Electrocardiografía (ECG), Electroencefalografía (EEG) y Electromiografía (EMG). Documenta la configuración, recolección y análisis de datos de actividad cardíaca, cerebral y muscular en diferentes estados fisiológicos y de actividad, empleando herramientas como BITalino y OpenSignals.', 
       imgSrc: '/pdfs/opensignals-ppc.jpg', 
