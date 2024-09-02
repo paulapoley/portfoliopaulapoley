@@ -84,6 +84,14 @@ const Home = () => {
       pdfSrc: '/pdfs/MPI--ASSB.pdf',
         topics: ['C', 'Linux', 'gnuplot', 'Open MPI']
     },
+    { 
+      id: 11, 
+      title: 'Análisis de Señales Fisiológicas: ECG, EEG y EMG', 
+      description: 'Este proyecto explora la medición y análisis de señales fisiológicas utilizando Electrocardiografía (ECG), Electroencefalografía (EEG) y Electromiografía (EMG). Documenta la configuración, recolección y análisis de datos de actividad cardíaca, cerebral y muscular en diferentes estados fisiológicos y de actividad, empleando herramientas como BITalino y OpenSignals.', 
+      imgSrc: '/pdfs/opensignals-ppc.jpg', 
+      pdfSrc: '/pdfs/opensignals-PPC.pdf',
+        topics: ['Signal Analysis', 'OpenSignals', 'Health Monitoring']
+    },
   ];
   
 const handleOpenPdf = (pdfSrc) => {
