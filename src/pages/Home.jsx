@@ -61,6 +61,14 @@ const Home = () => {
     },
     { 
       id: 8, 
+      title: 'Programación de Procesadores Multinúcleo usando OpenMP', 
+      description: 'aborda la programación de procesadores multinúcleo utilizando OpenMP en un entorno Linux, explorando técnicas de paralelización, sincronización de hilos, y optimización del rendimiento en cálculos complejos como la estimación del valor de Pi.', 
+      imgSrc: '/pdfs/openmp.jpg', 
+      pdfSrc: '/pdfs/Procesadores-multinucleo-openmp-PPC.pdf',
+        topics: ['Linux', 'OpenMP', 'Parallel Computing']
+    },
+    { 
+      id: 9, 
       title: 'Computación Paralela con Computadores de Memoria Distribuida usando MPI', 
       description: 'Se exploraron y aplicaron técnicas de computación paralela utilizando MPI en sistemas de memoria distribuida. Se modificaron y optimizaron programas para medir tiempos de ejecución, realizar estimaciones numéricas y analizar el rendimiento en diferentes configuraciones de procesos. La práctica incluyó ejercicios que abarcaron desde la modificación básica de programas hasta la ejecución paralela en múltiples PCs.', 
       imgSrc: '/pdfs/MPI.jpg', 
