@@ -15,17 +15,17 @@ const Home = () => {
       id: 2, 
       title: 'App HUA+', 
       description: 'La aplicación móvil desarrollada en Android Studio utilizando Kotlin, HUA+, está enfocada en la gestión y provisión de información sobre la Hemorragia Uterina Anormal (HUA), dirigida tanto a pacientes como a profesionales médicos.', 
-      imgSrc: '/pdfs/POC-PPC.jpg', 
-      pdfSrc: '/pdfs/Generación de un POC- PPC.pdf',
+      imgSrc: '/pdfs/app-hua.png', 
+      pdfSrc: '/pdfs/APP-HUA.pdf',
       topics: ['BPMN', 'Kotlin-Android Studio', 'Firebase-Authentication']
     },
     { 
       id: 3, 
       title: 'ClínicaConnect: Aplicación Móvil para Gestión de Citas Médicas y Tratamientos. Generación de un POC (Proof of Concept).', 
       description: 'Proyecto de una aplicación móvil para la gestión integral de citas médicas, tratamientos y comunicación entre pacientes y clínicas. Desarrollado con un enfoque en la experiencia del usuario tanto para pacientes como para profesionales médicos y administrativos.', 
-      imgSrc: '/pdfs/app-hua.png', 
+      imgSrc: '/pdfs/POC-PPC.jpg', 
       pdfSrc:[ 
-        '/pdfs/APP-HUA.pdf',
+        '/pdfs/Generación de un POC- PPC.pdf',
          '/pdfs/Presentacion Cliente-PPC.pdf'
         ],
       topics: ['HTML5', 'Visual Paradigm', 'Requisitos', 'Mocap', 'User Interface','Prototyping','Mockups', 'Marvel App']
