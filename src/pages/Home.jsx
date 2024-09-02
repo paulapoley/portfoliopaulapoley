@@ -24,8 +24,11 @@ const Home = () => {
       title: 'ClínicaConnect: Aplicación Móvil para Gestión de Citas Médicas y Tratamientos. Generación de un POC (Proof of Concept).', 
       description: 'Proyecto de una aplicación móvil para la gestión integral de citas médicas, tratamientos y comunicación entre pacientes y clínicas. Desarrollado con un enfoque en la experiencia del usuario tanto para pacientes como para profesionales médicos y administrativos.', 
       imgSrc: '/pdfs/app-hua.png', 
-      pdfSrc: '/pdfs/APP-HUA.pdf',
-      topics: ['HTML5', 'Requisitos', 'Mocap', 'User Interface','Prototyping','Mockups', 'Marvel App']
+      pdfSrc:[ 
+        '/pdfs/APP-HUA.pdf',
+         '/pdfs/Presentacion Cliente-PPC.pdf'
+        ],
+      topics: ['HTML5', 'Visual Paradigm', 'Requisitos', 'Mocap', 'User Interface','Prototyping','Mockups', 'Marvel App']
     },
     { 
       id: 4, 
