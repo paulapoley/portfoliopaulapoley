@@ -14,7 +14,7 @@ const Home = () => {
     { 
       id: 2, 
       title: 'Proyecto Delfos: Gestión y Análisis de Datos Clínicos y Genéticos por Salud Coding.', 
-      description: 'Proyecto Delfos es una solución integral para el análisis de datos clínicos y genéticos, incluyendo desarrollo de software, promoción, y análisis de riesgos. La implementación abarca desde la planificación y desarrollo hasta la entrega final, con un enfoque en la calidad y eficiencia del proceso. Incluye la estructura de tareas, coste, y documentación técnica del proyecto.', 
+      description: 'Es una solución integral para el análisis de datos clínicos y genéticos, incluyendo desarrollo de software, promoción, y análisis de riesgos. La implementación abarca desde la planificación y desarrollo hasta la entrega final, con un enfoque en la calidad y eficiencia del proceso. Incluye la estructura de tareas, coste, y documentación técnica del proyecto.', 
       imgSrc: '/pdfs/[SALUD CODING] Memoria del Proyecto DELFOS-PPC.jpg', 
       pdfSrc: '/pdfs/[SALUD CODING] Memoria del Proyecto DELFOS -PPC.pdf',
       topics: ['Gestión de Proyectos', 'Agile Methodologies', 'Project Planning','Risk Management' ]
