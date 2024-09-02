@@ -85,8 +85,8 @@ const Home = () => {
         topics: ['C', 'Linux', 'gnuplot', 'Open MPI']
     },
   ];
-
-  const handleOpenPdf = (pdfSrc) => {
+  
+const handleOpenPdf = (pdfSrc) => {
     window.open(pdfSrc, '_blank'); // Abre el PDF en una nueva pestaña
   };
 
@@ -109,9 +109,16 @@ const Home = () => {
                 ))}
               </div>
             </div>
-            <button className="home-button" onClick={() => handleOpenPdf(project.pdfSrc)}>
-              Ver PDF
-            </button>
+            <div className="project-buttons">
+              <button className="home-button" onClick={() => handleOpenPdf(project.pdfSrc)}>
+                Ver PDF Principal
+              </button>
+              {project.pdfSrc2 && (
+                <button className="home-button" onClick={() => handleOpenPdf(project.pdfSrc2)}>
+                  Ver PDF Adicional
+                </button>
+              )}
+            </div>
           </div>
         ))}
       </div>
@@ -120,4 +127,3 @@ const Home = () => {
 };
 
 export default Home;
-
