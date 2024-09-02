@@ -119,6 +119,14 @@
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+/* Estilos del contenedor de botones */
+.project-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+}
+
 /* Estilos del botón de PDF */
 .home-button {
   display: block;
@@ -131,7 +139,6 @@
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   transition: background-color 0.3s ease;
-  align-self: flex-end;
 }
 
 .home-button:hover {
