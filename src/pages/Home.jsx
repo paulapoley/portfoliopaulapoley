@@ -111,7 +111,7 @@ const handleOpenPdf = (pdfSrc) => {
             </div>
             <div className="project-buttons">
               <button className="home-button" onClick={() => handleOpenPdf(project.pdfSrc)}>
-                Ver PDF Principal
+                Ver PDF 
               </button>
               {project.pdfSrc2 && (
                 <button className="home-button" onClick={() => handleOpenPdf(project.pdfSrc2)}>
