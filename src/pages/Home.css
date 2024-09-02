@@ -123,8 +123,8 @@
 .project-buttons {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  align-items: flex-start;
+  gap: 10px; /* Espacio entre los botones */
+  margin-top: 10px; /* Espacio superior para separar los botones de otros elementos */
 }
 
 /* Estilos del botón de PDF */
