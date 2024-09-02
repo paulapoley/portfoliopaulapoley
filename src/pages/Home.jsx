@@ -21,8 +21,8 @@ const Home = () => {
     },
     { 
       id: 3, 
-      title: 'ClínicaConnect: Aplicación Móvil para Gestión de Citas Médicas y Tratamientos. Generación de un POC (Proof of Concept).', 
-      description: 'Proyecto de una aplicación móvil para la gestión integral de citas médicas, tratamientos y comunicación entre pacientes y clínicas. Desarrollado con un enfoque en la experiencia del usuario tanto para pacientes como para profesionales médicos y administrativos.', 
+      title: 'ClínicaConnect: App Móvil para Gestión de Citas Médicas y Tratamientos. Generación de un POC (Proof of Concept).', 
+      description: 'Es una aplicación integral para la gestión de clínicas, diseñada para médicos, administrativos y profesionales de atención al paciente. Ofrece funcionalidades avanzadas para la gestión de citas, tratamientos, pacientes, y comunicación, optimizando la eficiencia en la atención médica y administrativa.', 
       imgSrc: '/pdfs/POC-PPC.jpg', 
       pdfSrc:'/pdfs/Generación de un POC- PPC.pdf',
       pdfSrc2: "/pdfs/Presentacion Cliente-PPC.pdf",
