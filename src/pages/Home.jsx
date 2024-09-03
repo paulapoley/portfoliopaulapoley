@@ -22,7 +22,7 @@ const Home = () => {
     { 
       id: 3, 
       title: 'QRHealth: Gestión Digital de Historias Clínicas con Código QR', 
-      description: 'Proyecto de investigación y desarrollo (I+D+i) que busca innovar en la gestión de historias clínicas mediante códigos QR. Mejora la accesibilidad y seguridad de los datos médicos, permitiendo a los usuarios acceder a su información sanitaria a través de autenticación digital y sincronización con sistemas como Diraya. '
+      description: 'Proyecto de investigación y desarrollo (I+D+i) que busca innovar en la gestión de historias clínicas mediante códigos QR. Mejora la accesibilidad y seguridad de los datos médicos, permitiendo a los usuarios acceder a su información sanitaria a través de autenticación digital y sincronización con sistemas como Diraya. ',
       imgSrc: '/pdfs/GPI-img.jpg', 
       pdfSrc: '/pdfs/GPI.pdf',
       pdfSrc2: '/pdfs/QRHealth.pdf',
