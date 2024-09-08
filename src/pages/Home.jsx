@@ -38,6 +38,14 @@ const Home = () => {
     },
     { 
       id: 5, 
+      title: 'Sistema Integral de Gestión de Cuidado Domiciliario Usando Laravel y Docker - App', 
+      description: 'Desarrollado en Laravel y Docker, esta aplicación web facilita la gestión eficiente del cuidado domiciliario para personas mayores y dependientes. Permite a cuidadores programar citas, gestionar historiales médicos y coordinar la atención, mejorando la comunicación entre profesionales y familiares.', 
+      imgSrc: '/pdfs/ADC-app.jpg', 
+      pdfSrc: '/pdfs/ADC-ayudaDomicilio-app.pdf',
+      topics: ['docker', 'php', 'laravel', 'web-application', 'healthcare', 'ayuda-domicilio']
+    },
+    { 
+      id: 6, 
       title: 'ClínicaConnect: App Móvil para Gestión de Citas Médicas y Tratamientos. Generación de un POC (Proof of Concept).', 
       description: 'Es una aplicación integral para la gestión de clínicas, diseñada para médicos, administrativos y profesionales de atención al paciente. Ofrece funcionalidades avanzadas para la gestión de citas, tratamientos, pacientes, y comunicación, optimizando la eficiencia en la atención médica y administrativa.', 
       imgSrc: '/pdfs/POC-PPC.jpg', 
@@ -46,7 +54,7 @@ const Home = () => {
       topics: ['HTML5', 'Visual Paradigm', 'Requisitos', 'Mocap', 'User Interface','Prototyping','Mockups', 'Marvel App']
     },
     { 
-      id: 6, 
+      id: 7, 
       title: 'Computación en la Nube con Amazon Web Services (AWS).', 
       description: 'Uso de Amazon Web Services (AWS) para implementar y gestionar instancias EC2, configurar balanceadores de carga, y asignar direcciones IP fijas. El objetivo es familiarizarse con la infraestructura en la nube y aprender a manejar diferentes servicios y configuraciones dentro de AWS.', 
       imgSrc: '/pdfs/AWS.jpg', 
@@ -54,7 +62,7 @@ const Home = () => {
       topics: ['AWS', 'EC2', 'Ubuntu Server', 'Cloudcomputing']
     },
     { 
-      id: 7, 
+      id: 8, 
       title: 'BYODSEC: Implementación de BYOD en una Entidad Hospitalaria con VPN Road Warrior TLS', 
       description: 'Implementación de una arquitectura segura cliente-servidor en Java utilizando TLS para asegurar las comunicaciones. Se configuraron KeyStores, se desarrollaron sockets TLS y se validó el rendimiento para manejar hasta 300 conexiones concurrentes, garantizando autenticación y cifrado de datos.', 
       imgSrc: '/pdfs/p3.jpg', 
@@ -62,7 +70,7 @@ const Home = () => {
       topics: ['Java', 'TLS', 'VPN', 'BYOD', 'Seguridad']
     },
     { 
-      id: 8, 
+      id: 9, 
       title: 'Digitalización de la Autenticación y el Control de Acceso para Servicio de Salud de Comunidad Autónoma', 
       description: 'Implementación y gestión de certificados digitales para asegurar comunicaciones en servicios de salud. Incluye instalación y verificación de certificados, firma y validación de documentos, y automatización de políticas de control de acceso.', 
       imgSrc: '/pdfs/p2.jpg', 
@@ -70,7 +78,7 @@ const Home = () => {
       topics: ['Certificados Digitales', 'Seguridad', 'Automatización', 'Control de Acceso']
     },
     { 
-      id: 9, 
+      id: 10, 
       title: 'Análisis de Datos con Weka, Optimización y Evaluación de Modelos de Aprendizaje Automático.', 
       description: 'Implementación y ajuste de modelos de machine learning en Weka, incluyendo Bagging y agrupamiento con SimpleKMeans y EM. Optimización de parámetros y evaluación de rendimiento para mejorar la precisión y crear clasificadores personalizados.', 
       imgSrc: '/pdfs/p1.jpg', 
@@ -78,7 +86,7 @@ const Home = () => {
       topics: ['Weka', 'Machine Learning', 'Optimización', 'Clasificadores']
     },
     { 
-      id: 10, 
+      id: 11, 
       title: 'Bone Marrow Transplant: Children Data Set', 
       description: 'Análisis predictivo de trasplante de médula ósea en pacientes pediátricos utilizando modelos de regresión logística y random forest. Incluye análisis y visualizaciones de datos clínicos para predecir la recaída post-trasplante.', 
       imgSrc: '/pdfs/bone.png', 
@@ -86,28 +94,28 @@ const Home = () => {
       topics: ['Data Science', 'Machine Learning', 'R', 'Random Forest']
     },
     { 
-      id: 11, 
+      id: 12, 
       title: 'Programación de Procesadores Multinúcleo usando OpenMP', 
       description: 'aborda la programación de procesadores multinúcleo utilizando OpenMP en un entorno Linux, explorando técnicas de paralelización, sincronización de hilos, y optimización del rendimiento en cálculos complejos como la estimación del valor de Pi.', 
       imgSrc: '/pdfs/openmp.jpg', 
       pdfSrc: '/pdfs/Procesadores-multinucleo-openmp-PPC.pdf',
-        topics: ['Linux', 'OpenMP', 'Parallel Computing']
+      topics: ['Linux', 'OpenMP', 'Parallel Computing']
     },
     { 
-      id: 12, 
+      id: 13, 
       title: 'Computación Paralela con Computadores de Memoria Distribuida usando MPI', 
       description: 'Se exploraron y aplicaron técnicas de computación paralela utilizando MPI en sistemas de memoria distribuida. Se modificaron y optimizaron programas para medir tiempos de ejecución, realizar estimaciones numéricas y analizar el rendimiento en diferentes configuraciones de procesos. La práctica incluyó ejercicios que abarcaron desde la modificación básica de programas hasta la ejecución paralela en múltiples PCs.', 
       imgSrc: '/pdfs/MPI.jpg', 
       pdfSrc: '/pdfs/MPI--ASSB.pdf',
-        topics: ['C', 'Linux', 'gnuplot', 'Open MPI']
+      topics: ['C', 'Linux', 'gnuplot', 'Open MPI']
     },
     { 
-      id: 13, 
+      id: 14, 
       title: 'Análisis de Señales Fisiológicas: ECG, EEG y EMG con OpenSignals.', 
       description: 'Este proyecto explora la medición y análisis de señales fisiológicas utilizando Electrocardiografía (ECG), Electroencefalografía (EEG) y Electromiografía (EMG). Documenta la configuración, recolección y análisis de datos de actividad cardíaca, cerebral y muscular en diferentes estados fisiológicos y de actividad, empleando herramientas como BITalino y OpenSignals.', 
       imgSrc: '/pdfs/opensignals-ppc.jpg', 
       pdfSrc: '/pdfs/opensignals-PPC.pdf',
-        topics: ['Signal Analysis', 'OpenSignals', 'Health Monitoring']
+      topics: ['Signal Analysis', 'OpenSignals', 'Health Monitoring']
     },
   ];
   
