@@ -13,7 +13,7 @@ const About = () => {
           <span className="highlight">Ingeniería de la Salud</span> con especialización en <span className="highlight">Informática Clínica</span> por la <span className="highlight">Universidad de Sevilla</span>.
         </p>
         <p className="about-text">
-          Mi viaje académico me ha llevado a explorar un mundo fascinante de la tecnología que abarca desde diversos lenguajes de programación hasta la inteligencia artificial, pasando por bases de datos, modelado y diseño de prototipos, herramientas de desarrollo, máquinas virtuales y gestión de proyectos. Para obtener más detalles sobre estas habilidades específicas, ¡haz clic en mi currículum vitae (CV)!
+          Mi viaje académico me ha llevado a explorar un mundo fascinante que abarca desde diversos lenguajes de programación hasta la inteligencia artificial, pasando por bases de datos, modelado y diseño de prototipos, herramientas de desarrollo, máquinas virtuales y gestión de proyectos. Para obtener más detalles sobre estas habilidades específicas, ¡haz clic en mi currículum vitae (CV)!
         </p>
       </div>
       <div className="about-links-container">
